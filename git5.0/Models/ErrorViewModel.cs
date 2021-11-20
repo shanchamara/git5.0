@@ -7,5 +7,8 @@ namespace git5._0.Models
         public string RequestId { get; set; }
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+
+
+        //ok
     }
 }
